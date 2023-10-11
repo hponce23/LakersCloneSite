@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Los Angeles Lakers</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="header">      
+            <nav>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="LakersHP.html">HOME</a></li>
+                        <li><a href="NewsAndMedia.html">NEWS AND MEDIA</a></li>
+                        <li><a href="Roster.html">ROSTER</a></li>
+                        <li><a href="Schedule.html">SCHEDULE / TICKETS</a></li>
+                        <li><a href="Store.html">STORE</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>            
+            </nav> 
+            
+            <table id = "table" border="1">
+                <thead>
+                    <tr>
+                        <th>DATE</th>
+                        <th>TIME</th>
+                        <th>OPPONENT</th>
+                        <th>ARENA</th>
+                        <th>TICKETS</th>
+                    </tr>
+                </thead>
+                <tbody id="scheduleTable"></tbody>
+            </table>
+        </section>
+        <script>
+            var tableData = [
+    {
+        'date':'TUESDAY, OCTOBER 24',
+        'time': '7:30 PM ET',
+        'teams': '<img src = "./images/DEN.avif"</img> Denver Nuggets',
+        'arena': 'Ball Arena, Denver, CO'
+    },
+    {
+        'date':'THURSDAY, OCTOBER 26',
+        'time': '10:00 PM ET',
+        'teams':'<img src = "./images/PHX.avif"</img> Phoenix Suns',
+        'arena': 'Crypto.com Arena, Los Angeles, CA'
+    },
+    {
+        'date':'SUNDAY, OCTOBER 29',
+        'time': '9:00 PM ET',
+        'teams': '<img src = "./images/SAC.avif"</img> Sacramento Kings',
+        'arena': 'Golden 1 Center, Sacramento, CA'
+    },
+    {
+        'date':'MONDAY, OCTOBER 30',
+        'time': '10:30 PM ET',
+        'teams': '<img src = "./images/ORL.avif"</img> Orlando Magic',
+        'arena': 'Crypto.com Arena, Los Angeles, CA'
+    },
+    {
+        'date':'WEDNESDAY, NOVEMBER 1',
+        'time': '10:00 PM ET',
+        'teams': '<img src = "./images/LAC.webp"</img> LA Clippers',
+        'arena': 'Crypto.com Arena, Los Angeles, CA'
+    }
+    ,
+    {
+        'date':'SATURDAY, NOVEMBER 4',
+        'time': '7:00 PM ET',
+        'teams': '<img src = "./images/ORL.avif"</img> Orlando Magic',
+        'arena': 'Amway Center, Orlando, FL'
+    }
+    ,
+    {
+        'date':'MONDAY, NOVEMBER 6',
+        'time': '7:30 PM ET',
+        'teams': '<img src = "./images/MIA.avif"</img> Miami Heat',
+        'arena': 'Kaseya Center, Miami, FL'
+    }
+    ,
+    {
+        'date':'WEDNESDAY, NOVEMBER 8',
+        'time': '8:00 PM ET',
+        'teams': '<img src = "./images/HOU.avif"</img> Houston Rockets',
+        'arena': 'Toyota Center, Houston, TX'
+    }
+    ,
+    {
+        'date':'FRIDAY, NOVEMBER 10',
+        'time': '10:00 PM ET',
+        'teams': '<img src = "./images/PHX.avif"</img> Phoenix Suns',
+        'arena': 'Footprint Center, Phoenix, AZ'
+    },
+    {
+        'date':'SUNDAY, NOVEMBER 12',
+        'time': '10:00 PM ET',
+        'teams': '<img src = "./images/POR.avif"</img> Portland Trail Blazers',
+        'arena': 'Crypto.com Arena, Los Angeles, CA'
+    },
+    {
+        'date':'TUESDAY, NOVEMBER 14',
+        'time': '10:30 PM ET',
+        'teams': '<img src = "./images/MEM.avif"</img> Memphis Grizzlies',
+        'arena': 'Crypto.com Arena, Los Angeles, CA'
+    },
+    {
+        'date':'WEDNESDAY, NOVEMBER 15',
+        'time': '10:00 PM ET',
+        'teams': '<img src = "./images/SAC.avif"</img> Sacramento Kings',
+        'arena': 'Crypto.com Arena, Los Angeles, CA'
+    }   
+]
+
+var tableBody = document.getElementById("scheduleTable");
+
+for(var i = 0; i < tableData.length; i++){
+    var dataItem = tableData[i];
+
+    var row = tableBody.insertRow();
+
+    var dateCell = row.insertCell(0);
+    dateCell.innerHTML = dataItem.date;
+
+    var timeCell = row.insertCell(1);
+    timeCell.innerHTML = dataItem.time;
+
+    var teamsCell = row.insertCell(2);
+    teamsCell.innerHTML = dataItem.teams;
+
+    var arenaCell = row.insertCell(3);
+    arenaCell.innerHTML = dataItem.arena;
+
+    var ticketsCell = row.insertCell(4);
+    ticketsCell.innerHTML = '<img src = "./images/ticketmaster-button.png"</img>';
+
+}
+        </script>
+    </body>
+</html>

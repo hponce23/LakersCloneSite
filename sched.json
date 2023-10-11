@@ -1,0 +1,27 @@
+[
+    {
+    "date":"TUESDAY, OCTOBER 24",
+    "time": "7:30 PM ET",
+    "teams": "Los Angeles Lakers\nDenver Nuggets",
+    "arena": "Ball Arena\nDenver, CO"
+},
+{
+    "date":"THURSDAY, OCTOBER 26",
+    "time": "10:00 PM ET",
+    "teams": "Phoenix Suns\nLos Angeles Lakers",
+    "arena": "Crypto.com Arena\nLos Angeles, CA"
+},
+{
+    "date":"SUNDAY, OCTOBER 29",
+    "time": "9:00 PM ET",
+    "teams": "Los Angeles Lakers\nSacramento Kings",
+    "arena": "Golden 1 Center\nSacramento, CA"
+},
+{
+    "date":"MONDAY, OCTOBER 30",
+    "time": "10:30 PM ET",
+    "teams": "Orlando Magic\nLos Angeles Lakers",
+    "arena": "Crypto.com Arena\nLos Angeles, CA"
+}
+
+]

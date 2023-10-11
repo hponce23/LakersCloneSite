@@ -1,0 +1,43 @@
+[
+    {
+    "id":1,
+    "name": "Los Angeles Lakers LeBron James #23 Icon Swingman Jersey",
+    "price": 129.99,
+    "image": "./images/JamesJersey.webp"
+},
+{
+    "id":2,
+    "name": "Los Angeles Lakers 2023 NBA Draft Two Tone 9Fifty Snapback Hat",
+    "price": 40.99,
+    "image": "./images/hat.webp"
+},
+{
+    "id":3,
+    "name": "Lakers Split Design Button Down Jacket",
+    "price": 200.00,
+    "image": "./images/jacket.webp"
+},
+{
+    "id":4,
+    "name": "Los Angeles Lakers Youth Anthony Davis Statement Swingman Jersey",
+    "price": 59.99,
+    "image": "./images/adJersey.webp"
+},
+{
+    "id":5,
+    "name": "Lakers PO23 Reaves Player Breakaway Tee",
+    "price": 42.99,
+    "image": "./images/reavesShirt.webp"
+},
+{
+    "id":6,
+    "name": "Los Angeles Lakers NBA Big Face Fashion Short",
+    "price": 84.99,
+    "image": "./images/shorts.webp"
+}
+]
+
+
+
+
+
